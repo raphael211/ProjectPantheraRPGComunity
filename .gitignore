@@ -3,3 +3,4 @@ Thumbs.db
 
 #Arma spezifisch
 *.pbo
+*.pbo.bak
