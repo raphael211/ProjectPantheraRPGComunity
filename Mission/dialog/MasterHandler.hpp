@@ -1,6 +1,9 @@
 /*
     Master UI Resource File
 */
+#include "dynmarket_changeprice.hpp"
+#include "dynmarket_prices.hpp"
+
 #include "common.hpp"
 #include "shop_items.hpp"
 #include "player_inv.hpp"

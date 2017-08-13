@@ -319,5 +319,17 @@ class playerSettings {
  w = 0.127979 * safezoneW;
  h = 0.0544025 * safezoneH;
  };
+ 
+ 
+ 
+ class ButtonMarket : Life_RscButtonMenu { 
+    idc = 3025; 
+    text = "Börse"; 
+    onButtonClick = "createDialog ""life_dynmarket_prices"";"; 
+    x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH)); 
+    y = 0.805; 
+    w = (6.25 / 40); 
+    h = (1 / 25); 
+   };
  };
 };
